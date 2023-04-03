@@ -1,0 +1,5 @@
+DATABASE,USERNAME,PASSWORD,DATABASE_NAME,PORT,URL,
+FROM DATABSE,testuser,testuser,dbopmipr,5432,localhost,
+TO DATABASE,testuser,testuser,oratest,9480,localhost,
+OUTPUT DATABASE,testuser,testuser,oratest,9480,localhost,
+FLAG,db,,,,

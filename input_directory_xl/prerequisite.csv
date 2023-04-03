@@ -1,0 +1,5 @@
+DATABASE,USERNAME,PASSWORD,DATABASE_NAME,PORT,URL,
+FROM DATABSE,testuser,testuser,dbopmipr,5432,pg-tst-instance-1.cgin5nplrvzw.eu-central-1.rds.amazonaws.com,
+TO DATABASE,testuser,testuser,oratest,9480,ora-tst.cgin5nplrvzw.eu-central-1.rds.amazonaws.com,
+OUTPUT DATABASE,testuser,testuser,oratest,9480,ora-tst.cgin5nplrvzw.eu-central-1.rds.amazonaws.com,
+FLAG,db,,,,
